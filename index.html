@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Meter</h1>
+      <p>Fill out this form to determine your political leanings!</p>
+      <form id="political">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name"></input
+        </div>
+        <div class="form-group">
+          <label for"abortion">How do you feel about abortion?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="abortion" value="for">
+              I am pro-choice
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="abortion" value="against">
+              I am against abortion rights
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="abortion" value="neutral">
+              I feel neutral about the topic
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for"healthcare">How do you feel about universal healthcare?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="healthcare" value="for">
+              I am for universal healthcare
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="healthcare" value="against">
+              I am against univeral healthcare
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="healthcare" value="neutral">
+              I feel neutral about the topic
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-default">Submit</button>
+      </form>
+
+      <div class="liberal">
+        <h2>You're liberal!</h2>
+        <p>Based on your survey results, we've determined you're liberal.</p>
+      </div>
+
+      <div class="conservative">
+        <h2>You're conservative!</h2>
+        <p>Based on your survey results, we've determined you're conservative.</p>
+      </div>
+
+      <div class="moderate">
+        <h2>You're moderate!</h2>
+        <p>Based on your survey results, we've determined you're moderate.</p>
+      </div>
+
+    </div>
+  </body>
+</html>
